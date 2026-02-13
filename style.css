@@ -89,6 +89,16 @@ header span {
 .partner-title {
     display: none;
 }
+.hexabild-icon {
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, #6366f1, #a855f7, #e74694);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 8px 18px rgba(168, 85, 247, 0.35);
+}
 @media only screen and (max-width: 600px) {
     #list {
         grid-gap: 30px;
